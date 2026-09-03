@@ -21,31 +21,36 @@
   </nav>
 
   <main>
+<section id="nueva">
+  <h2>Agregar una tarea</h2>
 
-    <!-- Aquí irá el formulario en la clase 4 -->
-    <section id="nueva">
-      <h2>Agregar una tarea</h2>
-      <p>Pronto aquí habrá un formulario para crear tareas.</p>
-    </section>
+  <form>
+    <label for="titulo">Título:</label>
+    <input type="text" id="titulo" name="titulo" required>
 
-    <!-- Aquí se mostrarán las tareas con JavaScript -->
-    <section id="lista">
-      <h2>Mis tareas</h2>
-      <article>
-        <h3>Tarea de ejemplo</h3>
-        <p>Categoría: estudio · Estado: pendiente</p>
-      </article>
-      <article>
-        <h3>Otra tarea de ejemplo</h3>
-        <p>Categoría: casa · Estado: completada</p>
-      </article>
-    </section>
+    <label for="descripcion">Descripción:</label>
+    <textarea id="descripcion" name="descripcion"></textarea>
 
-    <aside>
-      <h2>Resumen</h2>
-      <p>Total de tareas: 2</p>
-    </aside>
+    <label for="categoria">Categoría:</label>
+    <select id="categoria" name="categoria">
+      <option value="estudio">Estudio</option>
+      <option value="casa">Casa</option>
+      <option value="deporte">Deporte</option>
+      <option value="otro">Otro</option>
+    </select>
 
+    <p>Estado:</p>
+    <input type="radio" id="pendiente" name="estado" value="pendiente">
+    <label for="pendiente">Pendiente</label>
+    <input type="radio" id="completada" name="estado" value="completada">
+    <label for="completada">Completada</label>
+
+    <label for="fecha">Fecha:</label>
+    <input type="date" id="fecha" name="fecha">
+
+    <button type="submit">Agregar tarea</button>
+  </form>
+</section>
   </main>
 
   <footer>
