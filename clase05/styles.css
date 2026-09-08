@@ -1,5 +1,5 @@
 body {
-  background: #06101a;
+  background: #eeeff1;
   color: #e6f1ff;
   font-family: Arial, sans-serif;
   padding: 20px;
@@ -14,7 +14,7 @@ h2 {
 }
 
 .tarea {
-  background: #d2d6dd;
+  background: #000000;
   border: 1px solid #1c3252;
   border-radius: 8px;
   padding: 10px 14px;
