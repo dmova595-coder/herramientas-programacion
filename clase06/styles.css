@@ -1,0 +1,104 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    background: #07111f;
+    color: white;
+    font-family: Arial, sans-serif;
+}
+
+.encabezado {
+    padding: 30px;
+    margin: 20px;
+    border: 2px solid #1c3252;
+    border-radius: 14px;
+    background: #0c1626;
+    text-align: center;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.4);
+}
+
+.encabezado h1 {
+    margin: 0;
+    padding: 10px;
+}
+
+.encabezado p {
+    margin: 10px;
+}
+
+.contenedor {
+    width: 90%;
+    margin: 20px auto;
+    padding: 20px;
+    text-align: center;
+}
+
+.card {
+    display: inline-block;
+    vertical-align: top;
+    width: 300px;
+    min-height: 260px;
+    padding: 20px;
+    margin: 15px;
+    border: 2px solid #1c3252;
+    border-radius: 14px;
+    background: #0c1626;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.4);
+    position: relative;
+}
+
+.card h2 {
+    margin: 10px;
+}
+
+.card p {
+    padding: 10px;
+    margin: 10px;
+}
+
+.modo {
+    display: block;
+    padding: 10px;
+    margin: 10px;
+    border: 1px solid #1c3252;
+    border-radius: 10px;
+}
+
+.modo h3 {
+    margin: 5px;
+}
+
+.modo p {
+    padding: 0;
+    margin: 5px;
+}
+
+.btn {
+    display: inline-block;
+    padding: 12px 24px;
+    margin: 10px;
+    border: none;
+    border-radius: 30px;
+    background: #22d3ee;
+    color: #000;
+    font-weight: bold;
+}
+
+.btn:hover {
+    box-shadow: 0 6px 20px rgba(34, 211, 238, 0.5);
+}
+
+.destacado {
+    position: relative;
+    z-index: 2;
+}
+
+footer {
+    padding: 20px;
+    margin-top: 20px;
+    border-top: 2px solid #1c3252;
+    text-align: center;
+}
