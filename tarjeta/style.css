@@ -8,14 +8,7 @@ body {
     background-color: #92caeb;
 }
 
-.contenedor {
-    width: 80%;
-    height: 500px;
-    margin: 50px auto;
-    border: 3px solid #244b74;
-    background-color: #f8fbff;
-    position: relative;
-}
+
 
 .tarjeta {
     width: 400px;
