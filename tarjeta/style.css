@@ -1,0 +1,58 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    background-color: white;
+    font-family: Arial, sans-serif;
+}
+
+.contenedor {
+    width: 800px;
+    height: 500px;
+    border: 2px solid #555;
+    margin: 80px auto;
+    position: relative;
+}
+
+.tarjeta {
+    width: 230px;
+    height: 320px;
+    border: 2px solid #555;
+    position: absolute;
+    left: 50px;
+    top: 45px;
+    padding-top: 25px;
+}
+
+.tarjeta a {
+    display: block;
+    width: 90px;
+    height: 90px;
+    margin: 0 auto;
+}
+
+.tarjeta img {
+    width: 90px;
+    height: 90px;
+    object-fit: cover;
+    display: block;
+}
+
+.texto {
+    text-align: center;
+    margin-top: 18px;
+}
+
+.texto p {
+    margin: 5px 0;
+    font-size: 18px;
+}
+
+.edad {
+    position: absolute;
+    right: 18px;
+    bottom: 15px;
+    font-size: 20px;
+}
