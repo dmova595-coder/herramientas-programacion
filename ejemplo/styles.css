@@ -1,8 +1,21 @@
-body {
-    background-color: lightblue;
+.tarjeta {
+    background-color: steelblue;
+    color: white;
+    padding: 20px;
+    text-align: center;
+    font-size: 18px;
 }
-@media (max-width:600px){
-    body{
-        background-color: lightgreen;
+
+@media (max-width: 600px){
+    .tarjeta {
+        background-color: crimson;
+        font-size: 14px;
     }
+}
+
+@media (min-width: 900px){
+   .tarjeta {
+    background-color: darkgreen;
+    font-size: 24px;
+   }    
 }
